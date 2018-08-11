@@ -1,0 +1,169 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+/* All Navbar CSS made by Noid */
+.navbar-dark {
+  background-color: transparent !important;
+  border-top: 75px solid #D83B3B;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+  height: 75px;
+  font-size: 25px;
+  margin-bottom: 1px;
+  width: 50%;
+  padding-right: 5px;
+  max-width: 100%;
+}
+.navbar-brand {
+  margin-top: -95px;
+}
+.navbar-toggler {
+  margin-top: -95px;
+}
+.navbar-collapse {
+  margin-top: -95px;
+}
+#enzotitle{
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+
+}
+.avatar {
+  border-radius: 50%;
+}
+.box-container {
+  border: 1px solid black;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(140,140,140,0.25) !important;
+  -moz-box-shadow: 1px 1px 3px 0px rgba(140,140,140,0.25) !important;
+  box-shadow: 1px 1px 3px 0px rgba(140,140,140,0.25);
+  width: 250px;
+  height: auto;
+}
+.code-holder {
+  background-color: rgb(241,241,241);
+}
+.h3-size {
+  width: 70px;
+  height: 70px;
+}
+.avatar-size {
+  width: 50px;
+}
+.border {
+  border: 1px solid black;
+  padding: 14px;
+}
+.border-img {
+  padding: 2px;
+}
+.bot {
+  color: white;
+  background-color: lightblue;
+  padding: 4px;
+  border-radius: 4px;
+  float: right;
+}
+.botStatus {
+  float: right;
+}
+.statistics {
+  border: 1px solid #888;
+  width: 180px;
+  position: relative;
+  left: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.links {
+  color: black;
+  text-decoration: none;
+}
+.links:hover {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+}
+html, body {
+ margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.card {
+  border: 2px solid;
+  border-top: 2px solid #D83B3B;
+  background-color:rgb(245,245,245);
+  box-shadow: 0px 2px 10px 2px #343434;
+}
+.card-header {
+  background-color: #D83B3B;
+  padding: 20px;
+  color: white;
+  font-size: 36px;
+  margin-bottom: -10px;
+}
+.card-body {
+ font-size: 18px;
+  color: black;
+}
+.round { 
+  border-radius: 50%;
+}
+.news-img {
+  width: 55px;
+  height: 55px;
+}
+footer {
+  border-top: 16px solid #D83B3B;
+  background-color:rgb(245,245,245);
+  width: 100%;
+  padding-left: 3px;
+  bottom: 0;
+  left: 0;
+   overflow-x: hidden;
+  height: 200px;
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  padding: 4px;
+  display: block;
+}
+.links a:hover {
+  padding: 4px;
+  color: #D83B3B !important;
+  display: block;
+}
+
